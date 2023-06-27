@@ -1,0 +1,25 @@
+{
+  "name": "humandetection",
+  "version": "1.00.01",
+  "description": "",
+  "main": "main_live_ai_capture_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js",
+    "nexe": "nexe ./humandetection.bundle.js --target linux-x64-12.16.2 -o ./humandetection.bundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "eslint": "7.15.0",
+    "webpack": "2.6.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.0.16",
+    "babel-preset-es2015": "6.24.1",
+    "request": "^2.88.2"
+  }
+}

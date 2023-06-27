@@ -1,0 +1,24 @@
+<ie>
+    <plugins>
+        <plugin name="GNA" location="libGNAPlugin.so">
+        </plugin>
+        <plugin name="HETERO" location="libHeteroPlugin.so">
+        </plugin>
+        <plugin name="CPU" location="libMKLDNNPlugin.so">
+        </plugin>
+        <plugin name="MULTI" location="libMultiDevicePlugin.so">
+        </plugin>
+        <plugin name="GPU" location="libclDNNPlugin.so">
+        </plugin>
+        <plugin name="MYRIAD" location="libmyriadPlugin.so">
+        </plugin>
+        <plugin name="HDDL" location="libHDDLPlugin.so">
+        </plugin>
+        <plugin name="VPUX" location="libVPUXPlugin.so">
+        </plugin>
+        <plugin name="KMB" location="libkmbPlugin.so">
+        </plugin>
+        <plugin name="DNNL" location="libDNNLPlugin.so">
+        </plugin>
+    </plugins>
+</ie>
